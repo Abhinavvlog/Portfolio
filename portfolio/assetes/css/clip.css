@@ -1,0 +1,589 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:"popins", sans-serif ;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px 68px;
+}
+
+nav{
+    position: sticky;
+    background-color: black;
+    height: 630px;
+   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 80%, 0 100%);
+}
+
+
+.left .logo a{
+color: white;  
+font-weight: 500;
+
+}  
+
+.right ul{
+    list-style: none;
+}
+
+.right ul li {
+    display: inline-block;
+    padding: 12px;
+}
+
+.right ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container span{
+color: red;
+font-size: x-large;
+}
+
+
+
+/* home section styling  */
+.hero{
+    margin-bottom: 200px;
+}
+
+.first img{
+    width: 400px;
+    margin-left: 120px;
+    /* margin-top: 60px; */
+}
+
+.second{
+    margin-right: 120px;
+    
+}
+
+.second h6 {
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+
+.second h1 {
+    color: white;
+    padding: 10px;
+    font-weight: 100;
+}
+
+.second p {
+    color: white;
+    padding: 10px;
+}
+
+.btn{
+    margin: 10px;
+    border: 2px solid red;
+    background-color: black;
+    color: red;
+    padding: 9px 19px;
+}
+
+.btn:hover{
+    background-color: red;
+    color: black;
+    
+}
+
+/* about me */
+ .about{
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     /* width: 68%; */
+     margin: 30px 189px;
+     padding: 0px 2px;
+}
+
+.charset img{
+    width: 200px;
+    margin-left: 120px;
+}
+
+.charset {
+    margin: 50px;
+
+}
+
+.details h1 {
+    font-weight: 100;
+}
+
+.details span{
+    color: red;
+    font-size: x-large;
+    font-weight: 100;
+
+}
+
+.details h1 {
+    font-weight: 100;
+    font-size: 16px;
+    margin-left: 6px;
+}
+
+
+.details h3 {
+    font-weight: 100;
+    font-size: 16px;
+    margin-left: 6px;
+}
+
+.details p {
+    font-weight: 100;
+    padding: 8px;
+}
+
+.social a{
+    color: black;
+    margin-left: 14px;
+}
+
+.social a :hover{
+    color: red;
+}
+
+
+
+.Grid{
+    margin-top: 45px;
+    margin-left: 550px;  
+}
+
+.section_heading{
+    text-align: center;
+    margin-bottom: -1rem;
+    margin-top: 105px;
+    line-height: 3.5;
+}
+
+/* .services{
+    width: 800px;
+} */
+
+.our{
+    color: red;
+}
+
+.section_heading + h1{
+    margin-bottom: 122px;
+    margin-left: 6px;
+}
+
+.section_heading + p{
+    color: rgb(111, 87, 87);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+section.services{
+    background-color: rgb(215 206 206 / 84%);
+    height: 680px;
+}
+
+section.services .card_wraper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 800px;
+    margin-left: 235px;
+    grid-column-gap: 2rem ;
+    grid-row-gap: 6rem ;
+    margin-top: 75px;
+}
+
+.card_wraper{
+    margin-bottom: 100px;
+}
+
+
+.card{
+    padding: 35px 26px;
+    background: white;
+    position: relative;
+}
+
+.card:hover{
+    background: black;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.card a{
+    background: red;
+    color: black;
+    padding: 25px 14px;
+    position: absolute;
+    top: -3.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.card a:hover{
+    color: red;
+    background: black;
+    transition: 0.3s ease-in-out;
+}
+
+.card h2{
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+/* freelancer */
+section.freelancer{
+    justify-content: center;
+    margin-bottom: 100px;
+    padding-top: 80px ;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/assetes/image/flame.jpg) ;
+    color: white;
+    height: 320px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 80%, 0 100%);
+}
+
+.freelancer p{
+padding-top: 15px;
+margin-bottom: 12px;
+} 
+
+.Skill_bar{
+    background-color: black;
+    width: 780px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 2 20px 25px rgba(55,55,55,0.7);
+}
+
+
+/* @keyframes load {
+    from{
+        width: 0%;
+    }
+}
+
+@-webkit-keyframes load{
+    from{
+        width: 0%;
+    }
+}
+
+@-moz-keyframes load{
+    from{
+        width: 0%;
+    }
+} */
+/* 
+@-o-keyframes load{
+    from{
+        width: 0%;
+    }
+} */
+
+.box h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.box{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.box li h5{
+    margin-bottom: 10px;
+      color: white;
+}
+
+.bar{
+    height: 18px;
+    /* background: white; */
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.bar::before{
+    content: "";
+    display: inline-block;
+    background-color: red;
+    border-radius: 15px;
+    padding: 9px 15px;
+    margin: 7px;
+    animation: load 3s 0s;
+    animation: load 3s 0s;
+    animation: load 3s 0s;
+    animation: load  3s 0s;
+}
+
+
+.bar.bar1::before{
+    width: calc(70% - 10px);
+}
+
+.bar.bar2::before{
+    width: calc(60% - 10px);
+}
+
+.bar.bar3::before{
+    width: calc(80% - 10px);
+}
+
+.bar.bar4::before{
+    width: calc(40% - 10px);
+}
+
+.work{
+    background: palegreen;
+    height: 600px;
+
+}
+
+
+.work_life{
+        width: 785px;
+        margin: auto;
+        padding: 50px;
+        background: white;
+}
+
+.work_life h1{
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.life img{
+    width: 180px;
+}
+
+section.work .work_draw{
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 809px;
+    margin-left: 253px;
+    /* grid-column-gap: 0rem; */
+    grid-row-gap: 1rem;
+    margin-top: 75px;
+}
+
+
+/* blog */
+
+
+.wrap{
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.english{
+       /* box-shadow: 0px 4px 8px 0px black;  */
+     border: 2px solid black;
+    transition: 0.4s;
+    width: 300px;
+    background: #fff;
+    text-align:center;
+    font-size: 14px;
+    float: left;
+   /* margin-left: 100px; */
+   margin-top: 43px;
+   padding: 0px;
+   margin: 20px 10px;
+}
+
+section.hindi{
+    background: black;
+    height: 950px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
+}
+
+.container1 {
+    margin-top: 10px;
+    /* color: white; */    padding: 2px 16px ;
+    /* background: black; */
+    color: black
+
+}
+
+.wrap h1{
+    margin-top: 10px;
+    color: white;
+}
+
+.wrap p{
+    margin-top: 10px;
+    color: white;
+}
+
+.container1 h3{
+    margin-top: 10px;
+    color: black;
+}
+
+.container1 p{
+    margin-top: 10px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.math{
+    /* box-shadow: 0px 4px 8px 0px black;  */
+  /* border: 2px solid black; */
+ /* transition: 0.4s; */
+ width: 300px;
+ /* background: #fff; */
+ text-align:center;
+ font-size: 18px;
+ float: left;
+/* margin-left: 100px; */
+margin-top: 43px;
+padding: 0px;
+margin: 20px 10px;
+}
+
+.math h1{
+    color: black;
+    margin-top: 32px;
+}
+
+.math h6{
+    color: black;
+    margin-top: 16px;
+}
+
+.math a{
+color: black;
+background: red;
+padding: 20px 8px;
+margin-bottom: 10px;
+}
+
+.math a:hover{
+    color: red;
+    background: black;
+    transition: 0.3s ease-in-out;
+}
+
+.game{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(215 206 206 / 84%);
+    height: 580px;
+}
+
+form{
+width: 90%;
+max-width: 600px;
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+    font-size: 15px;
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    padding: 10px;
+    cursor: text;
+    transition: 0.2s;
+}
+
+.range{
+    padding: 10px;
+    width: 100%;
+    color: red;
+    background-color: black;
+    /* background: transparent; */
+    border: 1px black;
+    cursor: pointer;
+}
+
+input:focus~label, input:valid~label, textarea:focus~label, textarea:valid~label {
+    top: -35px;
+    font-size: 14px;
+}
+
+.grow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grow .input-group{
+    flex-basis: 48%;
+}
+
+.base{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 220px;
+}
+
+.science{
+text-align: center;
+}
+
+.science a{
+    color: red;
+    margin-left: 14px;
+    margin-top: 20px;
+}
+
+.science a :hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.science h3{
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 12px ;
+    font-weight: 500;
+}
+
+.science p{
+    color: white;
+    text-align: center;
+    margin-top: -7px;
+    font-weight: 500;
+}
+
